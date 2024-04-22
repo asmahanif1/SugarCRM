@@ -55,13 +55,13 @@ if ($is_admin) {
 
 
 global $current_user;
-$is_admin = $current_user->is_admin;
+$is_admin = $current_user->is_admin; // how do i know the field names??
 if (!$is_admin){
 $dependencies['Accounts']['readonly_fields'] = array(
     'hooks' => array("edit"),
     'trigger' => 'true',
     //Optional, the trigger for the dependency. Defaults to 'true'.
-    'triggerFields' => array('id'),
+    'triggerFields' => array('id'), //why??
     'onload' => true,
     //Actions is a list of actions to fire when the trigger is true
     // You could list multiple fields here each in their own array under 'actions'
