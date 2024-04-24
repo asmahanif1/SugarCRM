@@ -1,5 +1,5 @@
 <?php
-// created: 2024-04-15 18:52:39
+// created: 2024-04-24 09:38:11
 $extensionOrderMap = array (
   'modules/RevenueLineItems/Ext/LogicHooks/SyncBestWorstWithLikely.php' => 
   array (
@@ -29,6 +29,12 @@ $extensionOrderMap = array (
   array (
     'md5' => '837ce12da44da72c9fe3582c73276760',
     'mtime' => 1692887768,
+    'is_override' => false,
+  ),
+  'custom/Extension/modules/RevenueLineItems/Ext/LogicHooks/denorm_field_hook.php' => 
+  array (
+    'md5' => 'fec67ccbfe263c6c56732c1ff550748a',
+    'mtime' => 1713951491,
     'is_override' => false,
   ),
 );
